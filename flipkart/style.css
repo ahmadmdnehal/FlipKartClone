@@ -1,0 +1,265 @@
+* {
+    margin: 0;
+    /* padding: 0; */
+    font-family: Arial;
+    border: border-box;
+
+}
+
+body {
+    color: #0f1111;
+    background-color: #d1d6de;
+}
+
+.navbar {
+    height: 70px;
+    background-color: #ffffff;
+    color: rgb(8, 9, 9);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+/*  box1 amazone logo */
+.nav-logo {
+    height: 90px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.logo {
+    /* background-image: url("logo.png");
+    height: 40px;
+    width: 100%;
+    background-size: cover; */
+
+    background-image: url("logo.png");
+    height: 43px;
+    width: 94%;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    margin-top: 3px;
+}
+
+.logo2 {
+    display: flex;
+    gap: 3px;
+}
+
+.logo2 p {
+    color: rgb(81, 84, 87);
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.logo2 p i {
+    color: rgb(245, 222, 10);
+    font-weight: 700;
+}
+
+.logo2 .fa-solid {
+    font-size: 19px;
+    font-weight: 800;
+    color: rgb(255, 255, 0);
+    padding: 0 2px;
+}
+
+.border {
+    /* border: 1.5px solid transparent; */
+}
+
+.border:hover {
+    /* border: 1.5px solid white; */
+}
+
+/* box 2 map location */
+/* box 3 nav Amazone search box */
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #dce0e6;
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    /* /* border-top-left-radius: 4px; */
+    /* border-bottom-left-radius: 4px; */
+}
+
+.search-input {
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    background-color: #dce0e6;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: #dce0e6;
+    border-radius: 4px;
+    /* border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; */
+    color: #0f1111;
+}
+
+.search-icon i {
+    color: black;
+}
+
+/* .nav-search:hover {
+    border: 3px solid orange;
+    box-shadow: 0px 0px 0.8px 0.8px orange;
+} */
+
+/* box 4  hello , sign in*/
+.nav-singin {
+    display: flex;
+    gap: 10px;
+    font-size: 18px;
+
+}
+
+.nav-return {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #0f1111;
+    /* background-color: #b9cae0; */
+    font-size: 20px;
+}
+
+.nav-search .user option {
+    height: 20px;
+    /* font-size: 17px; */
+    padding: 5px 0;
+}
+
+.nav-return select {
+    border: none;
+    font-size: 18px;
+    background-color: #ffffff;
+}
+
+/* box  6*/
+.nav-cart {
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.nav-cart i {
+    font-size: 30px;
+}
+
+/* after nav section */
+.after-nav {
+    height: 144px;
+  width: 97%;
+  background-color: rgb(234, 234, 241);
+  margin: 31px auto;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+}
+.box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 45px;
+}
+.box1{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box1 img{
+    height: 60px;
+    width: 60px;
+}
+/* secondSection */
+.secondSection{
+    width: 97%;
+    margin: 31px auto;
+}
+.secondSection img{
+    /* margin: auto 10px; */
+    width: 100%;
+}
+
+/* Third-Section */
+.Third-Section{
+    height: 350px;
+    width: 97%;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+.heading-section h3{
+    /* padding: 5px 10px; */
+    padding-left: 20px;
+  padding-top: 20px;
+  font-weight: 700;
+}
+.box-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.sec-box{
+    display: flex;
+    gap: 10px;
+}
+.box11{
+    height: 260px;
+  width: 192px;
+  border: 1px solid rgb(223, 220, 220);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+}
+.box11 p{
+    padding-top: 20px ;
+}
+.box11 h4{
+    padding: 5px 0;
+}
+.box11 img{
+    height: 130px;
+  width: 122px;
+}
+.sec-box2{
+    height: 315px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sec-box2 img{
+    height: 265px;
+}
+
+/* ThirdSection */
+.fourth-Section{
+    height: 350px;
+    width: 97%;
+    margin: auto;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+}
+.fourth-Section .sec-box2 img{
+    height: 130px;
+    /* width: 200px; */
+}
